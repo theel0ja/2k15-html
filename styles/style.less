@@ -1,0 +1,73 @@
+/* Fontit ja kirjastot */
+@import url("https://d2hfy7jlnfzeu2.cloudfront.net/lib/w3.min.css");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400");
+
+@font-face{font-family:Disko;src:url("Disko.ttf")}
+
+/* Muuttujat */
+@vaalea: #FAFFF0;
+@vaaleaVihrea: #66FFCC;
+@tummempiVihrea: #B8E65C;
+@vaaleaHarmaa: #D1D1E0;
+
+html {
+	background-color: @vaalea;
+	height: 100%;
+    width: device-width;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    float: none;
+	height: 100%;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+    width: device-width;
+}
+
+/* osat */
+
+	/* osa A&B (otsikko ja navi) */
+#sivuHeader {
+    padding: 10px;
+}
+
+	/* osa C (sisalto) */
+#sivuContent {
+    padding: 10px;
+}
+
+	/* Osa D (footer) */
+#sivuFooter {
+	padding: 10px;
+}
+
+/* muuta */
+
+/* otsikko */
+.sivuOsaA {
+	background-color: @vaaleaVihrea;
+	font-family: "Disko";
+}
+
+/* navi */
+.sivuOsaB {
+	background-color: @tummempiVihrea;
+}
+
+/* content */
+.sivuOsaC {
+	background-color: @vaaleaHarmaa;
+}
+
+/* footer */
+.sivuOsaD {
+	background-color: @tummempiVihrea;
+}
+
+/* otsikko fontti */
+.sivustonNimi {
+    /* font-size: 250%; */
+	font-size: 300%;
+}
