@@ -1,12 +1,10 @@
 <?php
+    $title = "Toinen sivu";
+    $keywords = "avain, sanat";
+    $description = "Kuvaus";
+    $lisakoodi = '<!-- kaksi.php -->';
 
-$title = "Toinen sivu";
-$keywords = "avain, sanat";
-$description = "Kuvaus";
-$lisakoodi = '<!-- kaksi.php -->';
-
-include_once "includes/top.php";
-
+    include_once "includes/top.php";
 ?>
 
 <h2>Toinen sivu</h2>
@@ -17,7 +15,5 @@ include_once "includes/top.php";
 
 
 <?php
-
-include_once "includes/bottom.php";
-
+    include_once "includes/bottom.php";
 ?>

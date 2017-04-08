@@ -1,18 +1,12 @@
-<!--
-	2k15 (v.1.0.0) by TheEl0ja
-	Link: http://theel0ja.info/
-	Downloads: http://theel0ja.info/sivupohjat
-	Authors: TheEl0ja - http://theel0ja.info/
--->
-
 <!DOCTYPE html>
 <html lang="fi">
 	<head>
 		<meta charset="UTF-8" />
-		<title>TheEl0ja: <?php echo $title; ?></title>
+		<title>Sivuston nimi: <?php echo $title; ?></title>
 
 		<?php if(isset($keywords)) { if($keywords != "") { ?><meta name="keywords" content="<?php echo $keywords; ?>" /> <?php } } ?>
 		<?php if(isset($description)) { if($description != "") { ?><meta name="description" content="<?php echo $description; ?>" /> <?php } } ?>
+
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Tyylit -->
 		<link rel="stylesheet/less" href="./styles/style.less" />
@@ -34,7 +28,7 @@
 
 	<div id="sivuHeader">
 		<div class="w3-container sivuOsaA">
-			<span class="sivustonNimi">2k15</span>
+			<span class="sivustonNimi">2k15<!-- Sivuston nimi --></span>
 		</div>
 		<div class="w3-topnav w3-xlarge sivuOsaB">
 			<a href="./">Etusivu</a>
@@ -44,9 +38,3 @@
 
 	<div id="sivuContent">
 		<div class="w3-container sivuOsaC">
-			<!--
-				2k15 (v.1.0.0) by TheEl0ja
-				Link: http://theel0ja.info/
-				Downloads: http://theel0ja.info/sivupohjat
-				Authors: TheEl0ja - http://theel0ja.info/
-			-->
