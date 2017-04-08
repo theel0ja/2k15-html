@@ -4,7 +4,7 @@
     $description = "Virhe! Sivua ei löytynyt! (En kyllä tajua miksi tämä on hakukoneessasi? o.o)";
     $lisakoodi = '<meta name="robots" content="noindex,nofollow" />';
 
-    include_once "includes/top.php";
+    require_once("includes/top.php");
 
     $sivuurl = htmlspecialchars($_SERVER['REQUEST_URI']);
     $sivuurl = str_replace("/", "", $sivuurl);
@@ -17,5 +17,5 @@
 </p>
 
 <?php
-    include_once "includes/bottom.php";
+    require_once("includes/bottom.php");
 ?>

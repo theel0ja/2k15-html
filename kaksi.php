@@ -4,7 +4,7 @@
     $description = "Kuvaus";
     $lisakoodi = '<!-- kaksi.php -->';
 
-    include_once "includes/top.php";
+    require_once("includes/top.php");
 ?>
 
 <h2>Toinen sivu</h2>
@@ -15,5 +15,5 @@
 
 
 <?php
-    include_once "includes/bottom.php";
+    require_once("includes/bottom.php");
 ?>

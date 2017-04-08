@@ -4,7 +4,7 @@
 	$description = "";
 	$lisakoodi = '<!-- index.php -->';
 
-	include_once "includes/top.php";
+    require_once("includes/top.php");
 ?>
 
 <h1>Hei, ja tervetuloa sivupohjaani!</h1>
@@ -15,5 +15,5 @@
 </p>
 
 <?php
-	include_once "includes/bottom.php";
+    require_once("includes/bottom.php");
 ?>
